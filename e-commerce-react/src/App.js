@@ -1,12 +1,15 @@
 import React from "react";
 import Nav from "./navigation/Nav";
+import Products from "./Products/Products";
+import Recommended from "./Recommended/Recommended";
 
 
 function App() {
   return (
     <div>
       <Nav />
-      <h1>Testing</h1>
+      <Products />
+      <Recommended />
     </div>
   );
 }
