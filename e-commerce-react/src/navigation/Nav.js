@@ -4,6 +4,7 @@ import { FiHeart } from "react-icons/fi";
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { AiOutlineUserAdd } from "react-icons/ai";
 
+
 function Nav() {
   return (
     <nav>
