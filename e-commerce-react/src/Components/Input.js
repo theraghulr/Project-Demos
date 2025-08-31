@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Input = () => {
+function Input (){
   return (
-    <div>input</div>
+    <label className="sidebar-label-container">
+        <input type="radio" name="test" />
+        <span className="checkmark"></span>All
+    </label>
   )
 }
 
