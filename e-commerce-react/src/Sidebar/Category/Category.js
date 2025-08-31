@@ -4,27 +4,27 @@ import './Category.css'
 function Category () {
   return (
     <div>
-      <h2 className="sidebar-title">Category</h2>
+      <h2>Category</h2>
       <div>
-        <label className="sidebar-label-container">
-          <input className="radio" name="test"/>
-          <span className="checkmark"></span>All
+        <label className='sidebar-label-container'>
+          <input type = "radio" name="test" />
+          <span className='checkmark'></span>All
         </label>
-         <label className="sidebar-label-container">
-          <input className="radio" name="test"/>
-          <span className="checkmark"></span>Sneakers
+        <label className='sidebar-label-container'>
+          <input type = "radio" name="test" />
+          <span className='checkmark'></span>Sneakers
         </label>
-         <label className="sidebar-label-container">
-          <input className="radio" name="test"/>
-          <span className="checkmark"></span>Flats
+        <label className='sidebar-label-container'>
+          <input type = "radio" name="test" />
+          <span className='checkmark'></span>Flats
         </label>
-         <label className="sidebar-label-container">
-          <input className="radio" name="test"/>
-          <span className="checkmark"></span>Sandals
+        <label className='sidebar-label-container'>
+          <input type = "radio" name="test" />
+          <span className='checkmark'></span>Sandals
         </label>
-        <label className="sidebar-label-container">
-          <input className="radio" name="test"/>
-          <span className="checkmark"></span>Heels
+        <label className='sidebar-label-container'>
+          <input type = "radio" name="test" />
+          <span className='checkmark'></span>Heels
         </label>
         
       </div>
