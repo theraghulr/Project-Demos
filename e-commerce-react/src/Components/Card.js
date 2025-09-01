@@ -2,22 +2,22 @@ import React from 'react'
 import { AiFillStar } from "react-icons/ai";
 import { FaBagShopping } from "react-icons/fa6";
 
-function Card  ()  {
+function Card ({ img, title, star, reviews, prevPrice, newPrice })  {
   return (
     <div>
       <section className="card">
-        <img className="card-img" src="https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg" alt="Shoe"/>
+        <img className="card-img" src={img} alt={title}/>
         <div className="crad-details">
           <h3 className="card-title">
-            Shoe
+            {title}
           </h3>
           <section className="card-reviews">
-            <AiFillStar className="rating-star" /> <AiFillStar className="rating-star" />  <AiFillStar className="rating-star" /> <AiFillStar className="rating-star" /> <AiFillStar className="rating-star" /> <AiFillStar className="rating-star" />  
-            <span className="total-review">5</span>        
+           {star} {star} {star} {star}
+            <span className="total-review">{reviews}</span>        
           </section>
           <section className="card-price">
             <div className="price">
-              <del>$250</del> $200
+              <del>{prevPrice}</del> {newPrice}
             </div>
             <div className="bag">
               <FaBagShopping  className="bag-icon"/>

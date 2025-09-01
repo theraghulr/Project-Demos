@@ -4,35 +4,9 @@ import { AiFillStar } from "react-icons/ai";
 import { FaBagShopping } from "react-icons/fa6";
 import Card from '../Components/Card';
 
-const Products = () => {
+function Products  ({result}) {
   return (
-    <section className="card-container">
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-
-    </section>
+    <section className="card-container">{result}</section>
   )
 }
 
